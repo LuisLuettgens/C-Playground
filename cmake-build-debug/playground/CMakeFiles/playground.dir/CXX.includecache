@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luis/git/C-Playground/playground/leetCodeImplementation.cpp
+leetCodeImplementation.h
+/home/luis/git/C-Playground/playground/leetCodeImplementation.h
+
+/home/luis/git/C-Playground/playground/leetCodeImplementation.h
+iostream
+-
+algorithm
+-
+numeric
+-
+vector
+-
+string
+-
+cstdint
+-
+

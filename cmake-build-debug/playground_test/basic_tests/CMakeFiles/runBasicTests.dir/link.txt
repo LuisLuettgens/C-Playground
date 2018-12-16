@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g   CMakeFiles/runBasicTests.dir/basic_check.cpp.o  -o runBasicTests -Wl,-rpath,/home/luis/git/C-Playground/cmake-build-debug/playground ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../playground/libplayground.so ../../lib/libgtestd.a -pthread 

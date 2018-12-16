@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g   CMakeFiles/playground_test.dir/basic_tests/basic_check.cpp.o  -o playground_test 

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\playground\;CMake Files\playground_test\;CMake Files\playground_test\lib\;CMake Files\playground_test\lib\cmake\;CMake Files\playground_test\basic_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/luis/git/C-Playground/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luis/git/C-Playground/playground"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib/include"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/ipp/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/mkl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/pstl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/tbb/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/daal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/luis/git/C-Playground/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luis/git/C-Playground/playground"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib/include"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/ipp/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/mkl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/pstl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/tbb/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/daal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/luis/git/C-Playground/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luis/git/C-Playground/playground"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib/include"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/ipp/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/mkl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/pstl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/tbb/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/daal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/luis/git/C-Playground/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/luis/git/C-Playground/playground"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib/include"/>
+					<Add directory="/home/luis/git/C-Playground/playground_test/lib"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/ipp/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/mkl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/pstl/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/tbb/include"/>
+					<Add directory="/home/luis/intel/compilers_and_libraries_2018.1.163/linux/daal/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/luis/git/C-Playground/playground_test/lib/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/playground_test/lib/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\playground\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/playground_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\playground_test\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/playground_test/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\playground_test\lib\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/playground_test/lib/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\playground_test\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/luis/git/C-Playground/playground_test/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\playground_test\basic_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

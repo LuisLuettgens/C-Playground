@@ -1,0 +1,1 @@
+/usr/bin/g++-7 -fPIC -g  -shared -Wl,-soname,libplayground.so -o libplayground.so CMakeFiles/playground.dir/leetCodeImplementation.cpp.o 

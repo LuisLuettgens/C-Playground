@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -g   CMakeFiles/C_Playground_run.dir/main.cpp.o  -o C_Playground_run -Wl,-rpath,/home/luis/git/C-Playground/cmake-build-debug/playground playground/libplayground.so 

@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="C_Playground" targetName="playground" />
+      <config projectName="C_Playground" targetName="runBasicTests" />
+      <config projectName="C_Playground" targetName="gtest" />
+      <config projectName="C_Playground" targetName="C_Playground_run" />
+      <config projectName="C_Playground" targetName="gtest_main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="584a64b2-1e36-4ff0-945d-eb4ecef9ebc9" name="Default Changelist" comment="first commit includes some solution for leetcode challenges">
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/CONTRIBUTORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/Makefile.am" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/cmake/Config.cmake.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/cmake/gtest.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/cmake/gtest_main.pc.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/cmake/internal_utils.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/codegear/gtest.cbproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/codegear/gtest.groupproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/codegear/gtest_all.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/codegear/gtest_link.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/codegear/gtest_main.cbproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/codegear/gtest_unittest.cbproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/configure.ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/Pkgconfig.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/PumpManual.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/XcodeGuide.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/advanced.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/primer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/docs/samples.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-matchers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-param-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-param-test.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-printers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-test-part.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest-typed-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest_pred_impl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/gtest_prod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/custom/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/custom/gtest-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/custom/gtest-printers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/custom/gtest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-death-test-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-filepath.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-param-util-generated.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-param-util-generated.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-param-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-port-arch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-port.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-type-util.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/include/gtest/internal/gtest-type-util.h.pump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/m4/acx_pthread.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/m4/gtest.m4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/make/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest-md.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest-md.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest-md.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_main-md.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_main-md.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_main.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_main.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_prod_test-md.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_prod_test-md.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_prod_test.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_prod_test.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_unittest-md.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_unittest-md.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_unittest.vcxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/msvc/2010/gtest_unittest.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/prime_tables.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample1.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample10_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample1_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample2.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample2_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample3-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample3_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample4.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample4_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample5_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample6_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample7_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample8_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/samples/sample9_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/fuse_gtest_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/gen_gtest_pred_impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/gtest-config.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/pump.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/release_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/scripts/upload_gtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-all.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-death-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-filepath.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-internal-inl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-matchers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-port.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-printers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-test-part.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest-typed-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/src/gtest_main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/BUILD.bazel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-break-on-failure-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-break-on-failure-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-catch-exceptions-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-catch-exceptions-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-color-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-color-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-death-test-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-death-test_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-env-var-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-env-var-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-filepath-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-filter-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-filter-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-json-outfiles-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-json-output-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-list-tests-unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-list-tests-unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-listener-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-message-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-options-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-output-test-golden-lin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-output-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-output-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test-invalid-name1-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test-invalid-name1-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test-invalid-name2-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test-invalid-name2-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test-test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-param-test2-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-port-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-printers-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-shuffle-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-shuffle-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-test-part-test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-test2_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-throw-on-failure-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-throw-on-failure-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-uninitialized-test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/googletest-uninitialized-test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest-typed-test2_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest-typed-test_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest-typed-test_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest-unittest-api_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_all_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_assert_by_exception_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_environment_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_help_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_help_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_json_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_list_output_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_list_output_unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_main_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_no_test_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_pred_impl_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_premature_exit_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_prod_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_repeat_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_skip_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_sole_header_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_stress_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_test_macro_stack_footprint_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_testbridge_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_testbridge_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_throw_on_failure_ex_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_unittest.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_xml_outfile1_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_xml_outfile2_test_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_xml_outfiles_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_xml_output_unittest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_xml_output_unittest_.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/gtest_xml_test_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/production.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/test/production.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Config/DebugProject.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Config/FrameworkTarget.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Config/General.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Config/ReleaseProject.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Config/StaticLibraryTarget.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Config/TestTarget.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Resources/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Samples/FrameworkSample/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Samples/FrameworkSample/WidgetFramework.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Samples/FrameworkSample/runtests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Samples/FrameworkSample/widget.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Samples/FrameworkSample/widget.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Samples/FrameworkSample/widget_test.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Scripts/runtests.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/Scripts/versiongenerate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground_test/lib/xcode/gtest.xcodeproj/project.pbxproj" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/leetCodeImplementation.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/leetCodeImplementation.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="e#132#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground_test/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground_test/basic_tests/basic_check.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#39#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground_test/basic_tests/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Luis Lüttg" />
+        <option value="Luis Lüttgens" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/playground_test/lib/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/playground/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/playground_test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/playground_test/basic_tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/playground/leetCodeImplementation.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/playground/leetCodeImplementation.cpp" />
+        <option value="$PROJECT_DIR$/playground_test/basic_tests/basic_check.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="153" />
+    <option name="width" value="1281" />
+    <option name="height" value="704" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="C_Playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="C_Playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="playground" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="C_Playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="playground_test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="C_Playground" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="playground_test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="basic_tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="C_Playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C-Playground" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/playground" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.runBasicTests">
+    <configuration name="mountian.basic1" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Playground" TARGET_NAME="runBasicTests" RUN_TARGET_PROJECT_NAME="C_Playground" RUN_TARGET_NAME="runBasicTests" TEST_CLASS="mountian" TEST_METHOD="basic1" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C_Playground_run" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Playground" TARGET_NAME="C_Playground_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Playground" RUN_TARGET_NAME="C_Playground_run">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Playground" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Playground" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="playground" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Playground" TARGET_NAME="playground" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runBasicTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Playground" TARGET_NAME="runBasicTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Playground" RUN_TARGET_NAME="runBasicTests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.C_Playground_run" />
+      <item itemvalue="Application.playground" />
+      <item itemvalue="Application.runBasicTests" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Google Test.mountian.basic1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.mountian.basic1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="584a64b2-1e36-4ff0-945d-eb4ecef9ebc9" name="Default Changelist" comment="" />
+      <created>1544874914855</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544874914855</updated>
+      <workItem from="1544874917511" duration="18038000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit includes some soluiton for leetcode challenges">
+      <created>1544958547009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544958547009</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit includes some soluiton for leetcode challenges">
+      <created>1544958791463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544958791463</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="mountian_basic1 - 2018.12.15 at 16h 50m 05s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mountian_basic1 - 2018.12.15 at 16h 50m 39s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mountian_basic1 - 2018.12.15 at 16h 55m 57s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mountian_basic1 - 2018.12.15 at 17h 02m 18s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mountian_basic1 - 2018.12.15 at 17h 06m 31s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mountian_basic1 - 2018.12.15 at 17h 06m 42s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="mountian_basic1 - 2018.12.15 at 17h 06m 56s.xml">
+      <configuration name="mountian.basic1" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18038000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1936255" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" weight="0.32868218" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32868218" />
+      <window_info anchor="bottom" id="Messages" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33953488" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" weight="0.32988048" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1936255" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32868218" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.32868218" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.33953488" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32988048" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit includes some soluiton for leetcode challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit includes some soluiton for leetcode challenges" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="581" selection-start-line="581" selection-end-line="581" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/cppplayground.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground_test/basic_tests/basic_check.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground_test/lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground_test/basic_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/leetCodeImplementation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#132#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/leetCodeImplementation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground_test/basic_tests/basic_check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground_test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

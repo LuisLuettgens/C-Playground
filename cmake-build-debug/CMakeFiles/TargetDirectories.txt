@@ -1,0 +1,15 @@
+/home/luis/git/C-Playground/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/CMakeFiles/C_Playground_run.dir
+/home/luis/git/C-Playground/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground/CMakeFiles/rebuild_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground/CMakeFiles/playground.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground/CMakeFiles/edit_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/CMakeFiles/rebuild_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/CMakeFiles/edit_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/CMakeFiles/rebuild_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/CMakeFiles/gtest.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/CMakeFiles/edit_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/lib/CMakeFiles/gtest_main.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/basic_tests/CMakeFiles/rebuild_cache.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/basic_tests/CMakeFiles/runBasicTests.dir
+/home/luis/git/C-Playground/cmake-build-debug/playground_test/basic_tests/CMakeFiles/edit_cache.dir
